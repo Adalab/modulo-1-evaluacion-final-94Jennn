@@ -1,10 +1,6 @@
-@import 'core/variables';
 @import 'core/reset';
-//@import 'layout/header';
-//@import 'layout/footer';
-//@import 'pages/index';
-
-
-:root{
-    font-size: 62,5%;
-}
+@import 'core/variables';
+@import 'layout/header';
+@import 'layout/connect';
+@import 'layout/newyear';
+@import 'layout/footer';

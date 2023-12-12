@@ -1,0 +1,16 @@
+.header{
+    background-image: url(/img/cover.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 320px;
+    height: 100vh;
+    padding: 0 0 5px;
+    color: $colorWhite;
+}
+
+.hamburguer{
+    background-color: $colorOrange;
+    border-color: $colorOrange;
+    border-style: inset;
+}
