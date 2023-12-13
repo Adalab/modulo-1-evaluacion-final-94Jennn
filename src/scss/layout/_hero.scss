@@ -1,0 +1,37 @@
+.hero{
+    background-image: url('/img/cover.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 45%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+
+    &__principal{
+        /*font-family:*/
+        text-transform: uppercase;
+        font-size: 30px;
+        color: $colorWhite;
+        line-height: 1.67;
+    }
+    &__secondary{
+        /*font-family:*/
+        color: $colorWhite;
+        font-weight: 100;
+        font-size: 16px;
+    }
+    &__scroll{
+        width: 38px;
+        height: 36px;
+        background-color: $colorWhite;
+        border-radius: 50%;
+        margin-bottom: 33px;
+        margin-top: 16px;
+        &--image {
+            transform: translateY(100%);
+        }
+    }
+}
