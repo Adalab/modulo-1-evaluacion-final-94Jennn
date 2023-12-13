@@ -1,4 +1,33 @@
-.buttonbuy{
-    border-color: $colorOrange;
+.connect{
+    height: auto;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 10px;
+    &__sentiments{
+        color: $colorOrange;
+        font-size: 14px;
+        line-height: 30px;
+    }
+    &__yourself{
+        font-size: 24px;
+    }
 
+    &__paragraph{
+        color: $colorGreyish-brown;
+        text-align: left;
+        font-size: 18px;
+        line-height: 30px;
+        font-family: Roboto-Regular;
+    }
+    
+}
+.buttonbuy{
+    border: solid 2px $colorOrange;
+    background-color: $colorWhite;
+    color: $colorOrange;
+    width: 160px;
+    height: 45px;
+    border-radius: 23px;
+    margin: 0 0 10px;
 }

@@ -1,21 +1,55 @@
 .footer{
     background-color: $colorGreyish-brown;
     color: $colorWhite;
+    font-size: 16px;
+    font-family: $font-roboto;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     text-align: center;
-    &__List1{
+    &__arrow{
+        background-color: $colorWhite;
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        /*margin-bottom: 42px;*/
+        margin-top: 17px;
+        transform: translateY(-85%);
+        &--image{
+            transform: translateY(50%);
+        }
+    }
+}
+
+.footer__clothes{
+    line-height: 1.88;
+    padding-bottom: 30px;
+    &--List1{
         list-style: none;
     }
-    &__List2{
+}
+
+.footer__social{
+    line-height: 1.88;
+    padding-bottom: 30px;
+    &--List2{
         list-style: none;
     }
-    & a{
-        text-decoration: none;
-        list-style: none;
-        color: $colorWhite;
+}
+
+a{
+    text-decoration: none;
+    color: $colorWhite;
+}
+
+.footer__lastone{
+    line-height: 1.88;
+    padding-bottom: 30px;
+    font-size: 14px;
+    & hearts{
+        color: red;
     }
 }
 

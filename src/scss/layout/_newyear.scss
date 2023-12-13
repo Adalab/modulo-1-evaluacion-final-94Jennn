@@ -1,8 +1,37 @@
 .newYear{
+    padding: 29px 65px 60px 49px;
+    /*padding-top: 29px;
+    padding-left: 60px;
+    padding-right: 65px;
+    padding-bottom: 49px;*/
     background-color: $colorWhite-Two;
-}
-
-
-.buttonstart{
-    background-color: $colorOrange;
+    height: auto;
+    font-family: $font-RobotoSlab;
+    &__tittle{
+        text-align: center;
+        font-size: 20px;
+        padding-bottom: 41px;
+    }
+    &__section{
+        font-size: 18px;
+        padding-bottom: 27px;
+        /*padding-right: 65px;*/
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, fr);
+        gap: 40px;
+        &--div{
+            text-align: center;
+        }
+    }
+    &__buttonstart{
+        background-color: $colorOrange;
+        border-color: $colorOrange;
+        color: $colorWhite;
+        font-size: 18px;
+        border-radius: 23px;
+        width: 184px;
+        height: 45px;
+        margin: 0 0 10px;
+    }
 }

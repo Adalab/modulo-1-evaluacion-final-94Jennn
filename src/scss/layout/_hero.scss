@@ -11,16 +11,16 @@
     text-align: center;
 
     &__principal{
-        /*font-family:*/
+        font-family: $font-RobotoSlab;
         text-transform: uppercase;
         font-size: 30px;
         color: $colorWhite;
         line-height: 1.67;
     }
     &__secondary{
-        /*font-family:*/
+        font-family: $font-RobotoSlab;
         color: $colorWhite;
-        font-weight: 100;
+        font-weight: 100px;
         font-size: 16px;
     }
     &__scroll{
