@@ -14,18 +14,27 @@
         width: 45px;
         height: 45px;
         border-radius: 50%;
-        /*margin-bottom: 42px;*/
         margin-top: 17px;
         transform: translateY(-85%);
         &--image{
             transform: translateY(50%);
         }
     }
+    @media (min-width: 768px){
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-start;
+    }
 }
 
 .footer__clothes{
     line-height: 1.88;
     padding-bottom: 30px;
+    @media (min-width: 768px){
+        order: 2;
+        padding-top: 56px;
+    }
     &--List1{
         list-style: none;
     }
@@ -34,6 +43,10 @@
 .footer__social{
     line-height: 1.88;
     padding-bottom: 30px;
+    @media (min-width: 768px){
+        order: 3;
+        padding-top: 56px;
+    }
     &--List2{
         list-style: none;
     }
@@ -48,7 +61,12 @@ a{
     line-height: 1.88;
     padding-bottom: 30px;
     font-size: 14px;
-    & hearts{
+        @media (min-width: 768px){
+        order: 1;
+        padding-top: 56px;
+        padding-left: 0px;
+    }
+    & span{
         color: red;
     }
 }

@@ -1,9 +1,5 @@
 .newYear{
     padding: 29px 65px 60px 49px;
-    /*padding-top: 29px;
-    padding-left: 60px;
-    padding-right: 65px;
-    padding-bottom: 49px;*/
     background-color: $colorWhite-Two;
     height: auto;
     font-family: $font-RobotoSlab;
@@ -24,7 +20,9 @@
             text-align: center;
         }
     }
-    &__buttonstart{
+}
+
+.buttonstart{
         background-color: $colorOrange;
         border-color: $colorOrange;
         color: $colorWhite;
@@ -33,5 +31,4 @@
         width: 184px;
         height: 45px;
         margin: 0 0 10px;
-    }
 }

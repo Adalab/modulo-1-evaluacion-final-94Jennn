@@ -1,9 +1,7 @@
 .connect{
     height: auto;
-    padding-top: 20px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 10px;
+    padding: 20px 15px 10px;
+    font-family: $font-roboto;
     &__sentiments{
         color: $colorOrange;
         font-size: 14px;
@@ -11,6 +9,7 @@
     }
     &__yourself{
         font-size: 24px;
+        padding-bottom: 11px;
     }
 
     &__paragraph{
@@ -18,7 +17,7 @@
         text-align: left;
         font-size: 18px;
         line-height: 30px;
-        font-family: Roboto-Regular;
+        padding-bottom: 30px;
     }
     
 }
