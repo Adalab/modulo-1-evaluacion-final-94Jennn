@@ -2,6 +2,9 @@
     height: auto;
     padding: 20px 15px 10px;
     font-family: $font-roboto;
+    @media (min-width: 768px){
+        padding: 37px 37px 51px;
+    }
     &__sentiments{
         color: $colorOrange;
         font-size: 14px;
@@ -10,6 +13,10 @@
     &__yourself{
         font-size: 24px;
         padding-bottom: 11px;
+        font-family: $font-RobotoSlab;
+        @media (min-width: 768px){
+            font-size: 32px;
+        }
     }
 
     &__paragraph{
@@ -18,9 +25,12 @@
         font-size: 18px;
         line-height: 30px;
         padding-bottom: 30px;
+        @media (min-width: 768px){
+            font-size: 20px;
+        }
     }
-    
 }
+
 .buttonbuy{
     border: solid 2px $colorOrange;
     background-color: $colorWhite;
