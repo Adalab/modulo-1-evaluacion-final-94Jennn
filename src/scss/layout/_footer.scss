@@ -39,6 +39,9 @@
         order: 2;
         padding-top: 56px;
     }
+    @media (min-width: 1200px){
+        padding-left: 30px;
+    }
     &--List1{
         list-style: none;
     }
